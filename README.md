@@ -1,8 +1,8 @@
 # Export and import reports as JSON through custom toolbar options (Angular Pivot Table)
 
 The Syncfusion Angular Pivot Table allows you to persist and restore report settings (also referred to as dataSourceSettings). In this sample, two custom toolbar actions are provided:
-- Save: Exports the current Pivot Table configuration as a JSON file (for example, pivot.json).
-- Open: Imports a previously saved JSON file and applies it to the Pivot Table.
+- **Save**: Exports the current Pivot Table configuration as a JSON file (for example, pivot.json).
+- **Open**: Imports a previously saved JSON file and applies it to the Pivot Table.
 
 These actions help users back up, share, or reload their exact Pivot Table layout, including rows, columns, values, filters, sorting, formatting, and more.
 
