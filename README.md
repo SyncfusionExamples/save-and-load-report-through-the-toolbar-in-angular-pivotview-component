@@ -9,7 +9,7 @@ These actions help users back up, share, or reload their exact Pivot Table layou
 ## ⚙️ How it works
 This sample uses the **toolbarTemplate** property of the Pivot Table to render two custom controls in the toolbar:
 - A Save button (anchor element) that serializes the current report using getPersistData, converts it to a downloadable file, and triggers a download in the browser.
-- An An Open input (file element) that reads a selected JSON file using the FileReader API and then assigns the parsed content back to the component’s dataSourceSettings to instantly restore the report.
+- An Open input (file element) that reads a selected JSON file using the FileReader API and then assigns the parsed content back to the component’s dataSourceSettings to instantly restore the report.
 
 Key APIs and references used:
 - [`dataSourceSettings`](https://ej2.syncfusion.com/angular/documentation/api/pivotview/#datasourcesettings)
